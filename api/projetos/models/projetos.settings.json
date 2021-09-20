@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projetos",
+  "info": {
+    "name": "projetos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descri": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "projetos.link"
+    }
+  }
+}

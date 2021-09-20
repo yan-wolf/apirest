@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_s",
+  "info": {
+    "name": "top "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descri": {
+      "type": "text"
+    }
+  }
+}

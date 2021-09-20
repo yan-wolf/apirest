@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projetos_link_s",
+  "info": {
+    "name": "link ",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
